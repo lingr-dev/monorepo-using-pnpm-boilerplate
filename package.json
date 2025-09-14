@@ -8,6 +8,10 @@
   },
   "scripts": {
     "bootstrap": "pnpm install",
+    "dev:demo": "pnpm --filter @monorepo/demo dev",
+    "build:lib": "pnpm --filter @monorepo/demo-lib build",
+    "build": "pnpm -r --stream build",
+    "build:watch": "pnpm -r --parallel build:watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
