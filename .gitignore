@@ -1,0 +1,25 @@
+# Logs
+logs
+*.log
+pnpm-debug.log*
+
+# misc
+node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
+
+# Editor directories and files
+.idea
+.fleet
+.trae
+.vscode
+.qoder
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+

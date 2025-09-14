@@ -1,0 +1,19 @@
+{
+  "name": "@monorepo/demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@monorepo/demo-lib": "workspace:^",
+    "vue": "catalog:vue3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "catalog:vue3",
+    "vite": "catalog:"
+  }
+}

@@ -1,0 +1,3 @@
+[submodule "packages/demo-lib"]
+	path = packages/demo-lib
+	url = git@lingr.github.com:lingr-dev/monorepo-module-demo.git

@@ -1,0 +1,56 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "bootstrap": "pnpm install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "monorepo",
+    "pnpm",
+    "vue",
+    "vite",
+    "eslint",
+    "prettier"
+  ],
+  "author": {
+    "name": "Goy",
+    "email": "lingerer_dev@163.com",
+    "url": "https://lingerer.cn"
+  },
+  "license": "MIT",
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.vue": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.css": [
+      "styleline --fix"
+    ],
+    "*.md": [
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.2.0",
+    "@eslint/js": "^9.13.0",
+    "@types/node": "^22.7.7",
+    "@vue/eslint-config-prettier": "^10.1.0",
+    "eslint": "^9.12.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-vue": "^9.32.0",
+    "globals": "^15.14.0",
+    "prettier": "^3.4.2",
+    "vue-eslint-parser": "^9.4.3"
+  },
+  "packageManager": "pnpm@10.16.0"
+}
